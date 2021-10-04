@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://127.0.0.1:5500/facebook%20.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>WELCOME TO FACEBOOK</title>
+
+
+    <style>
+        img {
+            height: 155px;
+            width: 30%;
+
+        }
+
+        body {
+            background-color: rgb(130, 124, 189);
+        }
+
+        nav {
+            background-color: rgb(16, 16, 19);
+            height: 92px;
+        }
+
+        .f {
+            text-align: center;
+            color: #110911;
+            background-color: rgb(44, 44, 161);
+            height: 92px;
+            padding-top: 1%;
+        }
+
+        /* .box {
+            margin-left: 70%;
+            margin-top: 1%;
+            display: flex; */
+
+
+        .img1 {
+            margin-top: 5%;
+        }
+
+        .main {
+             display: flex;
+
+        }
+        button:hover
+        {
+            background-color: rgb(104, 8, 104);
+        }
+
+        .top {
+            margin: 2%;
+            margin-right: 10%;
+            margin-top: 0%;
+        }
+
+        img {
+            height: 425px;
+            margin-left: 100px;
+            width: 48%;
+            padding-top: 5px;
+        }
+
+        .f {
+            margin: top 5px;
+
+        }
+
+       
+        .name {
+            display: flex;
+            margin: 1%;
+            padding-right: 2px;
+        }
+
+        .surname {
+            margin-left: 10%;
+            /* margin:1%; */
+        }
+
+        .top {
+            margin-right: 3%;
+            margin-top: 3%;
+
+        }
+
+        .pass {
+             display: flex;
+        }
+
+        input {
+            margin-left: 3%;
+        }
+
+        .dob {
+            margin-left: 10%;
+        }
+
+        button {
+            margin-top: 5%;
+            background-color: rgb(19, 40, 87);
+        }
+
+        /* .top
+        {
+             <h3><font-family>password</h3>
+                    <h2><input placeholder="Password" type="password" name="password" /></h2>
+
+y: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        } */
+    </style>
+
+</head>
+
+<body cz-shortcut-listen="true">
+
+    <div class="f">
+        <h1>WELCOME TO FACEBOOK</h1>
+        <p></p>
+        <!-- <img src="download.jpeg"> -->
+    </div>
+    <!-- <img src="download.jpeg"> -->
+    <div class="box">
+        <div class="main">
+            <div>
+                <button>
+                    <b> log in </b>
+                </button>
+
+                <br>
+                <br>
+                <br>
+                <b><span style="font-size: 20px;">
+                        Email or Phone No.
+
+                    </span></b>
+                <b><span style="margin-left: 70px;font-size: 20px;">
+                        Password
+
+                    </span></b>
+                <br>
+                <br>
+                <span>
+                    <input placeholder="Email" type="Email" name="name" phone="0123456789">
+
+                </span>
+                <span>
+                    <input placeholder="Password" type="Password" name="Password">
+
+                </span>
+
+
+                <h2>Create an Account</h2>
+                <p class="ptag">it's quick and easy :) </p>
+
+                <div class="name">
+                    <h3>First name</h3>
+                    <h3><input placeholder="name" type="name" name="name"></h3>
+                    <br>
+                    <h3 class="surname"> Surname</h3>
+                    <h3><input placeholder="Surname" type="Surname" surname="Surname"></h3><br>
+                </div>
+                <div class="pass">
+                    <h3>Mobile No.</h3>
+                    <h3><input placeholder="no" type="no" no="no"></h3>
+                    <br>
+
+                    <h3 class="dob"> Birth Date.</h3>
+                    <h3><input type="date" value="2000-06-01"></h3>
+
+                </div>
+                <h3>New Password</h3>
+                <h3><input placeholder="New Password" type="New Password" password="New password"></h3>
+                <div class="d">
+                    <h3>Confirm Password</h3>
+                    <h3><input placeholder="Confirm Password" type="Confirm Password" password="Confirm password" <="" h3="">
+                </h3></div>
+                <button>
+                    <b>Register</b>
+                </button>
+            </div>
+
+            <img src="./WELCOME TO FACEBOOK_files/comunity1.jpeg" alt="Image is not found">
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></div></body></html>
